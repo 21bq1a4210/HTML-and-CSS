@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+      #game-container {
+        width: 500px;
+        height: 500px;
+        margin: 0 auto;
+        text-align: center;
+      }
+      
+      #result {
+        font-size: 20px;
+        margin-top: 20px;
+      }
+      
+      button {
+        padding: 20px 40px;
+        font-size: 20px;
+        margin: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="game-container">
+      <h1 style="color:blue; size: 20px;">Rock-Paper-Scissors</h1>
+      <button id="rock"><span style="color: rgb(199, 199, 14);">Rock</span></button>
+      <button id="paper"><span style="color:red;">Paper</span></button>
+      <button id="scissors"><span style="color:magenta;">Scissors</span></button>
+      <div id="result"></div>
+      <div id="score-board">
+        <p>Wins: <span id="wins">0</span></p>
+        <p>Losses: <span id="losses">0</span></p>
+        <p>Ties: <span id="ties">0</span></p>
+      </div>
+    </div>
+    <audio id="win-sound" src="win.mp3"></audio>
+    <audio id="lose-sound" src="lose.mp3"></audio>
+    <audio id="draw-sound" src="draw.mp3"></audio>
+
+  </body>
+  <script src="game.js"></script>
+</html>
