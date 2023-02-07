@@ -1,0 +1,41 @@
+    body {
+        background-color: lightgray;
+    }
+
+    h1 {
+        font-size: 40px;
+        text-align: center;
+        margin-top: 50px;
+        color: blue;
+    }
+
+    table {
+        margin: auto;
+        width: 75%;
+        border-collapse: collapse;
+    }
+
+    th, td {
+        border: 1px solid black;
+        padding: 20px;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 25px;
+        color: green;
+    }
+
+    h3 {
+        font-size: 20px;
+        color: purple;
+    }
+
+    input[type="button"] {
+        background-color: blue;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+    }
